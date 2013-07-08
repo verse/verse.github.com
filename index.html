@@ -24,6 +24,8 @@
 
         <section id="downloads" class="clearfix">
           <a href="https://github.com/verse" id="view-on-github" class="button"><span>View on GitHub</span></a>
+          <a href="https://github.com/verse/verse/archive/master.zip" id="download-zip" class="button"><span>Download</span></a>
+          <a href="https://github.com/verse/verse/wiki" id="github-wiki-doc" class="button"><span>Documentation</span></a>
         </section>
 
         <hr>
@@ -31,45 +33,46 @@
         <section id="main_content">
           <h2>About</h2>
 
-<p>Verse 2.0 is network protocol for real-time sharing of 3D data. It is successor of old Verse protocol developed at KTH. Keep in mind that Verse 2.0 is still in alpha version.</p>
+<p>Verse 2.0 is network protocol for real-time sharing of 3D data. It is intended mostly for graphical applications of colaborative virtual reality. It could be used for sharing data between applications like <a href="http://www.blender.org">Blender</a>.</p>
 
 <h2>Features</h2>
 
 <p>Verse protocol has been designed keeping in mind that this protocol will be used only for real-time sharing of 3D data in applications of virtual reality. There is list of essential features:</p>
 
+<p>
 <ul>
 <li>Client-server architecture</li>
 <li>Effective semi-reliable data transport
   <ul>
   <li>Low latency</li>
-  <li>UDP connection uses own Flow Control and Congestion Control (TODO)</li>
+  <li>UDP connection uses own Flow Control and Congestion Control (WIP)</li>
   <li>It uses TLS to secure TCP connection and optionally DTLS to secure UDP connection</li>
   </ul>
 </li>
 <li>Strong user authentication</li>
 <li>Access permissions for shared data</li>
 <li>Locking of shared data</li>
-<li>Support for versing (TODO)</li>
+<li>Support for WebSocket protocol (WIP)</li>
+<li>Support for versing (WIP)</li>
 <li>Generic data mode that could be used for 2D/3D graphics</li>
 <li>C/C++ API</li>
 <li>Python API</li>
+<li>JavaScript API (WIP)</li>
 </ul>
+</p>
 
 <h2>Contacts</h2>
 
 <ul>
-<li>IRC: irc.freenode.net in channel #verse</li>
-<li>Mailing list: <a href="mailto:verse-dev@blender.org">verse-dev@blender.org</a>
-</li>
-<li>Main developer: Jiri Hnidek
-
-<ul>
-<li>E-mail: <a href="mailto:jiri.hnidek@tul.cz">jiri.hnidek@tul.cz</a>
-</li>
-<li>Phone: +420 485 35 3695</li>
-<li>Address: Studentska 2, 461 17, Liberec 1, Czech Republic</li>
-</ul>
-</li>
+  <li>IRC: irc.freenode.net in channel #verse</li>
+  <li>Mailing list: <a href="mailto:verse-dev@blender.org">verse-dev@blender.org</a></li>
+  <li>Main developer: Jiri Hnidek
+    <ul>
+      <li>E-mail: <a href="mailto:jiri.hnidek@tul.cz">jiri.hnidek@tul.cz</a></li>
+      <li>Phone: +420 485 35 3695</li>
+      <li>Address: Studentska 2, 461 17, Liberec 1, Czech Republic</li>
+    </ul>
+  </li>
 </ul>
         </section>
 

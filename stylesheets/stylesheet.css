@@ -161,7 +161,10 @@ a.button span {
 #view-on-github span {
   background: transparent url(../images/octocat-icon.png) 12px 50% no-repeat;
 }
-#view-on-github {
+#github-wiki-doc span {
+  background: transparent url(../images/document.png) 12px 50% no-repeat;
+}
+#github-wiki-doc {
   margin-right: 0;
 }
 
@@ -192,10 +195,11 @@ pre code {
   padding: 0;
 }
 
+/*
 ul, ol, dl {
   margin-bottom: 20px;
 }
-
+*/
 
 /* COMMON STYLES */
 
